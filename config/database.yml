@@ -15,7 +15,7 @@ development:
   database: simple_cms_development
   pool: 5
   username: root
-  password:
+  password: elsa25806
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: simple_cms_test
   pool: 5
   username: root
-  password:
+  password: elsa25806
   socket: /tmp/mysql.sock
 
 production:
@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: simple_cms_production
   pool: 5
-  username: root
-  password:
+  username: simple_cms
+  password: elsa25806
   socket: /tmp/mysql.sock
